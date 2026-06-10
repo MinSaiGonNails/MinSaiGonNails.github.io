@@ -66,6 +66,32 @@ nav ul li {
     margin: 0 20px;
 }
 
+nav ul li a {
+    position: relative;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #d4a373;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d4a373;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
 .nav-toggle {
     display: none;
 }
@@ -259,6 +285,25 @@ iframe {
     color: #d4a373;
 }
 
+.info-block a {
+    display: inline-block;
+    padding: 8px 14px;
+    margin-top: 8px;
+    margin-right: 8px;
+    background-color: #d4a373;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.info-block a:hover {
+    background-color: #222;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(212, 163, 115, 0.3);
+}
 
 .map-placeholder {
     background-color: #e0d5ce;
