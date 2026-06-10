@@ -172,6 +172,13 @@ nav ul li a:hover::after {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.btn-main:hover {
+    background-color: #d4a373;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
 }
 
 .section-title {
@@ -270,7 +277,12 @@ iframe {
     height: 250px;
     object-fit: cover;
     border-radius: 8px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 15px 35px rgba(212, 163, 115, 0.3);
 }
 
 .contact {
