@@ -66,6 +66,21 @@ nav ul li {
     margin: 0 20px;
 }
 
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    display: none;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #d4a373;
+    border-radius: 25px;
+    padding: 10px 18px;
+    font-weight: 600;
+    color: #333;
+}
+
 .btn-nav {
     background-color: #d4a373;
     color: #fff;
@@ -250,6 +265,23 @@ footer {
     .logo {
         font-size: 20px;
         text-align: center;
+    }
+
+    .nav-toggle-label {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav {
+        width: 100%;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.25s ease;
+    }
+
+    #nav-toggle:checked + .nav-toggle-label + nav {
+        max-height: 400px;
     }
 
     .btn-main {
