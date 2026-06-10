@@ -82,33 +82,38 @@ nav ul li {
     transition: background-color 0.3s ease;
 }
 
-.nav-toggle-label::before {
+.nav-toggle-label::before,
+.nav-toggle-label::after {
     content: '';
     position: absolute;
+    left: 50%;
+    top: 50%;
     width: 24px;
     height: 2px;
     background-color: #333;
-    box-shadow: 
+    transition: all 0.3s ease;
+    transform: translate(-50%, -50%);
+}
+
+.nav-toggle-label::before {
+    box-shadow:
         0 -8px 0 #333,
         0 8px 0 #333;
-    transition: all 0.3s ease;
+}
+
+.nav-toggle-label::after {
+    opacity: 0;
 }
 
 #nav-toggle:checked + .nav-toggle-label::before {
     background-color: transparent;
-    box-shadow: 
-        0 0 0 #333,
-        0 0 0 #333;
-    transform: rotate(45deg);
+    box-shadow: none;
+    transform: translate(-50%, -50%) rotate(45deg);
 }
 
 #nav-toggle:checked + .nav-toggle-label::after {
-    content: '';
-    position: absolute;
-    width: 24px;
-    height: 2px;
-    background-color: #333;
-    transform: rotate(-45deg);
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .nav-toggle-label:hover {
@@ -306,6 +311,8 @@ footer {
         height: 44px;
         align-items: center;
         justify-content: center;
+        align-self: center;
+        margin: 0 auto;
         z-index: 200;
     }
 
