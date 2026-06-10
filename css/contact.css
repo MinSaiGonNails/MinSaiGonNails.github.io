@@ -7,3 +7,20 @@
     min-height: 380px;
     border-radius: 8px;
 }
+
+.btn-phone {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4a373;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 22px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-phone:hover {
+    background-color: #bfa07a;
+}
+
