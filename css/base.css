@@ -152,6 +152,13 @@ nav ul li a:hover::after {
     padding: 10px 20px;
     border-radius: 25px;
     font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-nav:hover {
+    background-color: #c49563;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(212, 163, 115, 0.4);
 }
 
 .btn-main {
@@ -430,6 +437,13 @@ footer {
     justify-content: center;
     text-decoration: none;
     white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+    background-color: #c49563;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(212, 163, 115, 0.4);
 }
 
 .btn-whatsapp svg {
