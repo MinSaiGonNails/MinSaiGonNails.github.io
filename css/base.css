@@ -208,14 +208,14 @@ footer {
     text-align: center;
 }
 
-..btn-nav+.btn-whatsapp {
-    margin-left: 6px;
+.btn-nav + .btn-whatsapp {
+    margin-left: 4px;
 }
 
 .btn-whatsapp {
     background-color: #d4a373;
     color: #fff;
-    padding: 10px 16px;
+    padding: 10px 14px;
     border-radius: 22px;
     font-weight: 600;
     display: inline-flex;
@@ -243,6 +243,10 @@ footer {
 .gallery-overview p {
     color: #555;
     margin-bottom: 20px;
+}
+
+.gallery-overview {
+    margin-bottom: 60px;
 }
 
 .gallery-item img {
