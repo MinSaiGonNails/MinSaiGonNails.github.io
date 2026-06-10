@@ -3,6 +3,44 @@
     padding: 40px 0 80px 0;
 }
 
+.price-info {
+    background-color: #f5e6e8;
+    border-left: 4px solid #d4a5a5;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.price-info p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.price-info strong {
+    color: #8b5a5a;
+    font-weight: 600;
+}
+
+.other-services-info {
+    background-color: #e8f0f5;
+    border-left: 4px solid #8fb4d9;
+    padding: 15px 20px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.other-services-info p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.other-services-info strong {
+    color: #4a7ba7;
+    font-weight: 600;
+}
+
 .service-card p {
     color: #666;
 }
