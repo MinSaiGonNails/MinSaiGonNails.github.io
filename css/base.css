@@ -220,11 +220,6 @@ iframe {
     color: #d4a373;
 }
 
-.contact-info .info-block a:hover {
-    color: #bfa07a;
-    text-decoration: underline;
-    border-bottom: none;
-}
 
 .map-placeholder {
     background-color: #e0d5ce;
@@ -342,10 +337,6 @@ footer {
     justify-content: center;
     text-decoration: none;
     white-space: nowrap;
-}
-
-.btn-whatsapp:hover {
-    background-color: #bfa07a;
 }
 
 .btn-whatsapp svg {
