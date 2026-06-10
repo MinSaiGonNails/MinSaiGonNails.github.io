@@ -1,0 +1,9 @@
+/* Gallery page styles */
+.gallery {
+    padding: 40px 0 80px 0;
+}
+
+.gallery-item img {
+    height: 320px;
+    border-radius: 12px;
+}

@@ -1,0 +1,11 @@
+/* Home-specifieke aanpassingen */
+.hero {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h1 {
+    font-size: 52px;
+}

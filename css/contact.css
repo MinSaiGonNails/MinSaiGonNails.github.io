@@ -1,0 +1,9 @@
+/* Contact page styles */
+.contact {
+    padding: 40px 0 80px 0;
+}
+
+.map-placeholder iframe {
+    min-height: 380px;
+    border-radius: 8px;
+}

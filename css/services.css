@@ -1,0 +1,8 @@
+/* Services page styles */
+.services {
+    padding: 40px 0 80px 0;
+}
+
+.service-card p {
+    color: #666;
+}
