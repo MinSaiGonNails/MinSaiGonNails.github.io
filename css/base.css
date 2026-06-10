@@ -182,10 +182,46 @@ footer {
     .navbar {
         flex-direction: column;
         gap: 15px;
+        align-items: stretch;
     }
 
     nav ul {
-        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 6px 0;
+    }
+
+    .logo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .btn-main {
+        padding: 12px 26px;
+    }
+
+    .gallery-item img {
+        height: 180px;
+    }
+
+    .section-title {
+        font-size: 28px;
+        margin: 40px 0 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -207,15 +243,22 @@ footer {
     display: inline-block;
     text-align: center;
 }
-
 .btn-nav + .btn-whatsapp {
-    margin-left: 4px;
+    margin-left: 0; /* buttons sit next to each other; separator inserted */
+}
+
+.btn-nav + .btn-whatsapp::before {
+    content: "|";
+    color: #e3d8cf;
+    margin: 0 8px;
+    font-weight: 600;
+    display: inline-block;
 }
 
 .btn-whatsapp {
     background-color: #d4a373;
     color: #fff;
-    padding: 10px 14px;
+    padding: 10px 12px;
     border-radius: 22px;
     font-weight: 600;
     display: inline-flex;
