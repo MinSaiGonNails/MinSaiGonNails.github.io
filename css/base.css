@@ -293,15 +293,7 @@ footer {
     text-align: center;
 }
 .btn-nav + .btn-whatsapp {
-    margin-left: 0; /* buttons sit next to each other; separator inserted */
-}
-
-.btn-nav + .btn-whatsapp::before {
-    content: "|";
-    color: #e3d8cf;
-    margin: 0 8px;
-    font-weight: 600;
-    display: inline-block;
+    margin-left: 0;
 }
 
 .btn-whatsapp {
