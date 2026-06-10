@@ -191,10 +191,7 @@ iframe {
     font-weight: 600;
 }
 
-.btn-whatsapp:hover {
-    background-color: #1ebe5a;
-    transform: translateY(-1px);
-}
+
 
 .gallery-item img {
     width: 100%;
@@ -221,14 +218,6 @@ iframe {
 
 .info-block strong {
     color: #d4a373;
-}
-
-/* Maak social / contact links duidelijk zichtbaar als klikbare links */
-.contact-info .info-block a {
-    color: #d4a373;
-    text-decoration: none;
-    border-bottom: 1px dashed rgba(212,163,115,0.4);
-    padding-bottom: 2px;
 }
 
 .contact-info .info-block a:hover {
